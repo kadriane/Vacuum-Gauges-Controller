@@ -1,6 +1,6 @@
 # Vacuum Gauges Controller (VGC) 2017 - 2018
 
-<img src="img/vgc_front.png" width="70%" height="70%" />
+<img src="img/vgc_front.png" width="80%" height="80%" />
 
 The master thesis presents the design and the prototype of the new Vacuum Gauges Controller for high and ultra-high vacuum measurements for the Large Hadron Collider at CERN
 
@@ -10,9 +10,17 @@ The master thesis presents the design and the prototype of the new Vacuum Gauges
   * [Architecture](#architecture)
   * [Electronics Schematics](#electronics-schematics)
   * [PCB designs and 3D models](#PCB-designs-and-3D-models)
+    * [Motherboard](#motherboard)
+    * [Backplane board](#backplane-board)
+* [Software](#software)
+* [Prototype](#prototype)
+  * [Motherboard](#motherboard)
+  * [Backplane board](#backplane-board)
+  * [Final version](#final-version)
 * [Author](#author)
 * [Acknowledgments](#acknowledgments)
 * [Copyrights](#Copyrights)
+* [CERN Offical Document](#cern-official-document)
 
 ## General Info
 
@@ -82,5 +90,5 @@ Design:
 - The European Organization for Nuclear Research (CERN) in Geneve, Switzerland
 - AGH University of Science and Technology in Cracow, Poland
 
-## CERN Oficial Documents Server
+## CERN Official Document
 https://edms.cern.ch/document/2082555/1 
