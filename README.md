@@ -33,8 +33,8 @@ The practical part of this graduate project has been conducted from September 20
 ### Architecture
 
 ### Electronics Schematics
-- **`Motherboard`** (./schematics/vgc_motherbrd_schema.pdf)
-- **`Backplane board`** (./schematics/vgc_backplanebrd_schema.pdf)
+- [Motherboard](./schematics/vgc_motherbrd_schema.pdf) 
+- [Backplane board](./schematics/vgc_backplanebrd_schema.pdf)
 
 ### PCB designs and 3D models
 
