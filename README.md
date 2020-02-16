@@ -1,11 +1,15 @@
 # Vacuum Gauges Controller (VGC) 2017 - 2018
 
-![vgc_front](img/vgc_front.png)
+<img src="img/vgc_front.png" width="978" height="602" />
 
 The master thesis presents the design and the prototype of the new Vacuum Gauges Controller for high and ultra-high vacuum measurements for the Large Hadron Collider at CERN
 
 ## Table of Contents
 * [General Info](#general-info)
+* [Hardware](#hardware)
+  * [Architecture](#architecture)
+  * [Electronics Schematics](#electronics-schematics)
+  * [PCB designs and 3D models](#PCB-designs-and-3D-models)
 * [Author](#author)
 * [Acknowledgments](#acknowledgments)
 * [Copyrights](#Copyrights)
@@ -24,7 +28,29 @@ Author of project was responsible for:
 
 The practical part of this graduate project has been conducted from September 2017 up to September 2018 at CERN. The aims of this thesis were fulfiled successfully and the controller has been psychically made. The VGC prototype is operational and can serve the vacuum gauges such as Helmer, Bayard-Alpert, Pirani, Penning and Piezo-resistive.
 
+## Hardware
 
+### Architecture
+
+### Electronics Schematics
+- **`Motherboard`** (./schematics/vgc_motherbrd_schema.pdf)
+- **`Backplane board`** (./schematics/vgc_backplanebrd_schema.pdf)
+
+### PCB designs and 3D models
+
+#### Motherboard
+
+#### Backplane board
+
+## Software
+
+## Prototype
+
+### Motherboard
+
+### Backplane board
+
+### Final version
 
 ## Author
 - **Karol Adrianek**: (gitlab:kadriane)
