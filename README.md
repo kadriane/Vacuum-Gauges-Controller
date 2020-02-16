@@ -40,6 +40,13 @@ The practical part of this graduate project has been conducted from September 20
 
 #### Motherboard
 
+Top layers:
+
+<img src="pcb/motherbrd_design_top.png" width="70%" height="70%"/>
+
+Bottom layers
+<img src="pcb/motherbrd_design_bottom.png"/>
+
 #### Backplane board
 
 ## Software
