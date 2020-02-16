@@ -1,5 +1,7 @@
 # Vacuum Gauges Controller (VGC) 2017 - 2018
 
+![vgc_front](img/vgc_front.png)
+
 The master thesis presents the design and the prototype of the new Vacuum Gauges Controller for high and ultra-high vacuum measurements for the Large Hadron Collider at CERN
 
 ## Table of Contents
