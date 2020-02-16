@@ -1,6 +1,6 @@
 # Vacuum Gauges Controller (VGC) 2017 - 2018
 
-<img src="img/vgc_front.png" width="978" height="602" />
+<img src="img/vgc_front.png" width="70%" height="70%" />
 
 The master thesis presents the design and the prototype of the new Vacuum Gauges Controller for high and ultra-high vacuum measurements for the Large Hadron Collider at CERN
 
@@ -42,12 +42,26 @@ The practical part of this graduate project has been conducted from September 20
 
 Top layers:
 
-<img src="pcb/motherbrd_design_top.png" width="70%" height="70%"/>
+<img src="pcb/motherbrd_desing_top.png" width="70%" height="70%"/>
 
-Bottom layers
-<img src="pcb/motherbrd_design_bottom.png"/>
+Bottom layers:
+
+<img src="pcb/motherbrd_desing_bottom.png" width="70%" height="70%"/>
+
+3D Model:
+
+<img src="pcb/motherbrd_3d_top.png" width="70%" height="70%"/>
+<img src="pcb/motherbrd_3d_bottom.png" width="70%" height="70%"/>
 
 #### Backplane board
+
+Design:
+
+<img src="pcb/backplanebrd_design.png" width="70%" height="70%"/>
+
+3D Model:
+
+<img src="pcb/backplanebrd_3d.png" width="70%" height="70%"/>
 
 ## Software
 
