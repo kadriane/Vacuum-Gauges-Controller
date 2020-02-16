@@ -6,6 +6,7 @@ The master thesis presents the design and the prototype of the new Vacuum Gauges
 
 ## Table of Contents
 * [General Info](#general-info)
+* [CERN Offical Document](#cern-official-document)
 * [Hardware](#hardware)
   * [Architecture](#architecture)
   * [Electronics Schematics](#electronics-schematics)
@@ -20,7 +21,6 @@ The master thesis presents the design and the prototype of the new Vacuum Gauges
 * [Author](#author)
 * [Acknowledgments](#acknowledgments)
 * [Copyrights](#Copyrights)
-* [CERN Offical Document](#cern-official-document)
 
 ## General Info
 
@@ -35,6 +35,9 @@ Author of project was responsible for:
 - designing and implementing PC console application in C++.
 
 The practical part of this graduate project has been conducted from September 2017 up to September 2018 at CERN. The aims of this thesis were fulfiled successfully and the controller has been psychically made. The VGC prototype is operational and can serve the vacuum gauges such as Helmer, Bayard-Alpert, Pirani, Penning and Piezo-resistive.
+
+## CERN Official Document
+The master thesis document is available to see on the CERN Documents Server under [this link](https://edms.cern.ch/document/2082555/1)
 
 ## Hardware
 
@@ -93,6 +96,3 @@ Design:
 ## Copyrights
 - The European Organization for Nuclear Research (CERN) in Geneve, Switzerland
 - AGH University of Science and Technology in Cracow, Poland
-
-## CERN Official Document
-https://edms.cern.ch/document/2082555/1 
