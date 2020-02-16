@@ -77,6 +77,10 @@ Design:
 
 ### Motherboard
 
+<img src="img/motherbrd_soldered_top.png" width="70%" height="70%"/>
+
+<img src="img/motherbrd_soldered_bottom.png" width="70%" height="70%"/>
+
 ### Backplane board
 
 ### Final version
