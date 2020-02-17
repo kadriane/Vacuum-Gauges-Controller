@@ -8,6 +8,7 @@ The master thesis presents the design and the prototype of the new Vacuum Gauges
 * [General Info](#general-info)
 * [CERN Offical Document](#cern-official-document)
 * [Hardware](#hardware)
+  * [Electronics components](#electronics-components)
   * [Architecture](#architecture)
   * [Electronics Schematics](#electronics-schematics)
   * [PCB designs and 3D models](#PCB-designs-and-3D-models)
@@ -40,6 +41,9 @@ The practical part of this graduate project has been conducted from September 20
 The master thesis document is available to see on the CERN Documents Server under [this link](https://edms.cern.ch/document/2082555/1)
 
 ## Hardware
+
+### Electronics components
+- **`STM32F407VG`**
 
 ### Architecture
 
@@ -85,6 +89,10 @@ Design:
 <img src="img/motherbrd_soldered_bottom.png" width="70%" height="70%"/>
 
 ### Backplane board
+
+<img src="img/backplanebrd_soldered_top.png" width="70%" height="70%"/>
+
+<img src="img/backplanebrd_soldered_bottom.png" width="70%" height="70%"/>
 
 ### Final version
 
