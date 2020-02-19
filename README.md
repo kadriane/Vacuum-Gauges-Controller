@@ -20,7 +20,6 @@ The master thesis presents the design and the prototype of the new Vacuum Gauges
   * [Backplane board](#backplane-board)
   * [Final version](#final-version)
 * [Author](#author)
-* [Acknowledgments](#acknowledgments)
 * [Copyrights](#Copyrights)
 
 ## General Info
@@ -121,8 +120,6 @@ Author of project has been not granted with a permission for publicing source co
 
 ## Author
 - **Karol Adrianek**: (gitlab:kadriane)
-
-## Acknowledgments
 
 ## Copyrights
 - The European Organization for Nuclear Research (CERN) in Geneve, Switzerland
