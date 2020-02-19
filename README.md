@@ -25,7 +25,7 @@ The master thesis presents the design and the prototype of the new Vacuum Gauges
 
 ## General Info
 
-The graduate thesis has been performed in collaboration with the CERN and AGH.
+The graduate thesis has been performed in collaboration with CERN and AGH.
 
 The aims of this master project was to design and prototype the new controller, which will be replaced with the out-of-date and obsoleted controllers (the TPG300 and the VGC1000) still in use at CERN.
 
@@ -41,11 +41,22 @@ The practical part of this graduate project has been conducted from September 20
 The master thesis document is available to see on the CERN Documents Server under [this link](https://edms.cern.ch/document/2082555/1)
 
 ## Hardware
+The motherboard and backplane schematics, 3D models and PCBs have been designed with the use of Altium Designer 2017.
+
+Prototypes have been made manually with the use of standard solder station, PCB oven and 
 
 ### Electronics components
-- **`STM32F407VG`**
-
-### Architecture
+- **`STM32F429BIT6`**: ARM Cortex-M4 main microcontroller
+- **`5' TFT LCD MCT050TC12W800480LML`**: 800x480 
+- **`256Mbit Micron SDRAM MT48LC16M16A2P`**: TFT LCD active data buffer
+- **`64Mbit NOR FLASH S29GL064N90TFI040`**: non-volatile data buffer for GUI templates
+- **`512Kbit EEPROM 24FC512`**: non-volatile 
+- **`L5972D`**: main power supply buck converter 24V/3.3V with 2A current limiter
+- **`LT3466EDD`**: TFT LCD Backlight driver and boost converter
+- **`TPS2500DRCR`**: USB power boost converter
+- **`STF202-22T1G & NZF220TT1`**: USB OTG 2.0 ESD&EMI protection chips
+- **`MAX6816`**: user buttons debouncer 
+- **`SN74LVC2T45D & SN74LVC2G17D`**: Schmitt-trigger buffers for SPI buses
 
 ### Electronics Schematics
 - [Motherboard](./schematics/vgc_motherbrd_schema.pdf) 
@@ -79,6 +90,12 @@ Design:
 <img src="pcb/backplanebrd_3d.png" width="70%" height="70%"/>
 
 ## Software
+ 
+Firmware implementation for the STM32 main microcontroller has been written in C language in the **`Atolic TrueStudio`** IDE.
+
+Console control application has been written in C++11 in the **`Visual Studio Code`** IDE.
+
+Author of project has been not granted with a permission for publicing source codes of firmware and console application.
 
 ## Prototype
 
