@@ -88,13 +88,19 @@ Design:
 
 <img src="img/motherbrd_soldered_bottom.png" width="70%" height="70%"/>
 
+<img src="img/motherbrd_assembled_top.jpg" width="70%" height="70%"/>
+
 ### Backplane board
 
 <img src="img/backplanebrd_soldered_top.png" width="70%" height="70%"/>
 
 <img src="img/backplanebrd_soldered_bottom.png" width="70%" height="70%"/>
 
-### Final version
+### Final VGC Controller
+
+<img src="img/vgc_cross_top.jpg" width="70%" height="70%"/>
+<img src="img/vgc_cross_back.jpg" width="70%" height="70%">
+
 
 ## Author
 - **Karol Adrianek**: (gitlab:kadriane)
