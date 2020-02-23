@@ -14,11 +14,11 @@ The master thesis presents the design and the prototype of the new Vacuum Gauges
   * [PCB designs and 3D models](#PCB-designs-and-3D-models)
     * [Motherboard](#motherboard)
     * [Backplane board](#backplane-board)
-* [Software](#software)
 * [Prototype](#prototype)
   * [Motherboard](#motherboard)
   * [Backplane board](#backplane-board)
   * [Final version](#final-version)
+* [Software](#software)
 * [Author](#author)
 * [Copyrights](#Copyrights)
 
@@ -30,7 +30,7 @@ The aims of this master project was to design and prototype the new controller, 
 
 Author of project was responsible for:
 - designing, prototyping and soldering the motherboard and backplane PCBs,
-- designing and prototyping firmware implementation for STM32 main microcontrollers,
+- designing and prototyping firmware implementation for a STM32 microcontroller,
 - designing and implementing GUI (Graphical User Interface),
 - designing and implementing PC console application in C++.
 
@@ -42,14 +42,12 @@ The master thesis document is available to see on the CERN Documents Server unde
 ## Hardware
 The motherboard and backplane schematics, 3D models and PCBs have been designed with the use of Altium Designer 2017.
 
-Prototypes have been made manually with the use of standard solder station, PCB oven and 
-
 ### Electronics components
 - **`STM32F429BIT6`**: ARM Cortex-M4 main microcontroller
 - **`5' TFT LCD MCT050TC12W800480LML`**: 800x480 
 - **`256Mbit Micron SDRAM MT48LC16M16A2P`**: TFT LCD active data buffer
 - **`64Mbit NOR FLASH S29GL064N90TFI040`**: non-volatile data buffer for GUI templates
-- **`512Kbit EEPROM 24FC512`**: non-volatile 
+- **`512Kbit EEPROM 24FC512`**: non-volatile data buffer for events' timestamps, configuration and settings parameters
 - **`L5972D`**: main power supply buck converter 24V/3.3V with 2A current limiter
 - **`LT3466EDD`**: TFT LCD Backlight driver and boost converter
 - **`TPS2500DRCR`**: USB power boost converter
@@ -62,6 +60,10 @@ Prototypes have been made manually with the use of standard solder station, PCB 
 - [Backplane board](./schematics/vgc_backplanebrd_schema.pdf)
 
 ### PCB designs and 3D models
+
+The motherboard is the four-layer PCB, where two layers are the power supply layers (the ground and +3.3VDC, placed onto the internal layers of the PCB), and next two are signal layers (placed on the external layers of the PCB).
+
+The backplane board is a standard two-layer board with a boosted thickness of 3mm (requirements for high stiffness and more equalled distribution of mechanical stress).
 
 #### Motherboard
 
@@ -88,15 +90,13 @@ Design:
 
 <img src="pcb/backplanebrd_3d.png" width="70%" height="70%"/>
 
-## Software
- 
-Firmware implementation for the STM32 main microcontroller has been written in C language in the **`Atolic TrueStudio`** IDE.
-
-Console control application has been written in C++11 in the **`Visual Studio Code`** IDE.
-
-Author of project has been not granted with a permission for publicing source codes of firmware and console application.
-
 ## Prototype
+
+The PCB boards have been done with the use of a solder oven and standard soldering tools.
+
+The design of the front panel has been designed in the AutoCAD 2017 program. The front panel of the prototype has been done with the use of a CNC milling machine.
+
+The motherboard and the backplane boards are mounted to the mechanical chassis through the M3 screws and standoffs.
 
 ### Motherboard
 
@@ -117,6 +117,14 @@ Author of project has been not granted with a permission for publicing source co
 <img src="img/vgc_cross_top.jpg" width="70%" height="70%"/>
 <img src="img/vgc_cross_back.jpg" width="70%" height="70%">
 
+
+## Software
+ 
+Firmware implementation for the STM32 main microcontroller has been written in **`C language`** in the **`Atolic TrueStudio`** IDE.
+
+Console control application has been written in **`C++11`** in the **`Visual Studio Community 2017`** IDE.
+
+Author of project has been not granted with a permission for publicing source codes of firmware and console application.
 
 ## Author
 - **Karol Adrianek**: (gitlab:kadriane)
