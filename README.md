@@ -19,6 +19,7 @@ The master thesis presents the design and the prototype of the new Vacuum Gauges
   * [Backplane board](#backplane-board)
   * [Final version](#final-version)
 * [Software](#software)
+  * [GUI templates](#gui-templates-(selected))
 * [Author](#author)
 * [Copyrights](#Copyrights)
 
@@ -130,8 +131,34 @@ Console control application has been written in **`C++11`** in the **`Visual Stu
 
 Author of project has been not granted with a permission for publicing source codes of firmware and console application.
 
+More details about software can be found in chapter 6 of [master thesis](./MasterThesis_Rev20_0__24_09_18_Final.pdf).
+
+### GUI templates (selected)
+Graphical User Interface (GUI) effects are generated using designed GUI templates, saved as standard image formats, loaded to the external NOR and SDRAM memories. 
+
+More details about GUI can be found in chapter 6.4 of [master thesis](./MasterThesis_Rev20_0__24_09_18_Final.pdf).
+
+<p float="left">
+  <img width="25%" height="25%" src="img_gui/screen00_welcome.jpg" />
+  <img width="25%" height="25%" src="img_gui/screen01_pc_load_menu.jpg" />
+  <img width="25%" height="25%" src="img_gui/screen03_sys_menu.jpg" />
+</p>
+
+<p float="left">
+  <img width="25%" height="25%" src="img_gui/screen04_sys_menu_info.jpg" />
+  <img width="25%" height="25%" src="img_gui/screen05_helmer_menu.jpg" />
+  <img width="25%" height="25%" src="img_gui/screen09_card_menu.jpg" />
+</p>
+
+<p float="left">
+  <img width="25%" height="25%" src="img_gui/screen10_card_zoom.jpg" />
+  <img width="25%" height="25%" src="img_gui/screen12_warn_menu.jpg" />
+  <img width="25%" height="25%" src="img_gui/screen13_err_menu.jpg" />
+</p>
+
+
 ## Author
-- **Karol Adrianek**: (gitlab:kadriane)
+- **Karol Adrianek**
 
 ## Copyrights
 - The European Organization for Nuclear Research (CERN) in Geneve, Switzerland
