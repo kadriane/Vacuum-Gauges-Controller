@@ -1,6 +1,6 @@
 # Vacuum Gauges Controller (VGC) 2017 - 2018
 
-<img src="img/vgc_front.png" width="80%" height="80%" />
+<img width="80%" height="80%" src="img/vgc_front.png" />
 
 The master thesis presents the design and the prototype of the new Vacuum Gauges Controller for high and ultra-high vacuum measurements for the Large Hadron Collider at CERN.
 
@@ -72,26 +72,26 @@ The backplane board is a standard two-layer board with a boosted thickness of 3m
 
 Top layers:
 
-<img src="pcb/motherbrd_desing_top.png" width="70%" height="70%"/>
+<img width="70%" height="70%" src="pcb/motherbrd_desing_top.png" />
 
 Bottom layers:
 
-<img src="pcb/motherbrd_desing_bottom.png" width="70%" height="70%"/>
+<img width="70%" height="70%" src="pcb/motherbrd_desing_bottom.png" />
 
 3D Model:
 
-<img src="pcb/motherbrd_3d_top.png" width="70%" height="70%"/>
-<img src="pcb/motherbrd_3d_bottom.png" width="70%" height="70%"/>
+<img width="70%" height="70%" src="pcb/motherbrd_3d_top.png" />
+<img width="70%" height="70%" src="pcb/motherbrd_3d_bottom.png" />
 
 #### Backplane board
 
 Design:
 
-<img src="pcb/backplanebrd_design.png" width="70%" height="70%"/>
+<img width="70%" height="70%" src="pcb/backplanebrd_design.png" />
 
 3D Model:
 
-<img src="pcb/backplanebrd_3d.png" width="70%" height="70%"/>
+<img width="70%" height="70%" src="pcb/backplanebrd_3d.png" />
 
 ## Prototype
 
@@ -105,22 +105,20 @@ More detailed photos of prototype can be found in attachments of the [master the
 
 ### Motherboard
 
-<img src="img/motherbrd_soldered_top.png" width="70%" height="70%"/>
-
-<img src="img/motherbrd_soldered_bottom.png" width="70%" height="70%"/>
-
-<img src="img/motherbrd_assembled_top.jpg" width="70%" height="70%"/>
+<img width="70%" height="70%" src="img/motherbrd_soldered_top.png" />
+<img width="70%" height="70%" src="img/motherbrd_soldered_bottom.png" />
+<img width="70%" height="70%" src="img/motherbrd_assembled_top.jpg" />
 
 ### Backplane board
 
-<img src="img/backplanebrd_soldered_top.png" width="70%" height="70%"/>
-<img src="img/backplanebrd_soldered_bottom.png" width="70%" height="70%"/>
+<img width="70%" height="70%" src="img/backplanebrd_soldered_top.png" />
+<img width="70%" height="70%" src="img/backplanebrd_soldered_bottom.png" />
 
 ### Final VGC Controller
 
-<img src="img/vgc_cross_top.jpg" width="70%" height="70%"/>
-<img src="img/vgc_cross_back.jpg" width="70%" height="70%">
-<img src="img/vgc_back.jpg" width="70%" height="70%">
+<img width="70%" height="70%" src="img/vgc_cross_top.jpg"/>
+<img width="70%" height="70%" src="img/vgc_cross_back.jpg" />
+<img width="70%" height="70%" src="img/vgc_back.jpg" />
 
 
 ## Software
@@ -131,12 +129,12 @@ Console control application has been written in **`C++11`** in the **`Visual Stu
 
 Author of project has been not granted with a permission for publicing source codes of firmware and console application.
 
-More details about software can be found in chapter 6 of [master thesis](./MasterThesis_Rev20_0__24_09_18_Final.pdf).
+More details about software can be found in chapter 6 of the [master thesis](./MasterThesis_Rev20_0__24_09_18_Final.pdf).
 
 ### GUI templates (selected)
-Graphical User Interface (GUI) effects are generated using designed GUI templates, saved as standard image formats, loaded to the external NOR and SDRAM memories. 
+Graphical User Interface (GUI) effects are generated using designed GUI templates, saved as standard image formats and loaded to the external NOR and SDRAM memories. 
 
-More details about GUI can be found in chapter 6.4 of [master thesis](./MasterThesis_Rev20_0__24_09_18_Final.pdf).
+More details about GUI can be found in chapter 6.4 of the [master thesis](./MasterThesis_Rev20_0__24_09_18_Final.pdf).
 
 <p float="left">
   <img width="25%" height="25%" src="img_gui/screen00_welcome.jpg" />
