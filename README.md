@@ -2,7 +2,7 @@
 
 <img src="img/vgc_front.png" width="80%" height="80%" />
 
-The master thesis presents the design and the prototype of the new Vacuum Gauges Controller for high and ultra-high vacuum measurements for the Large Hadron Collider at CERN
+The master thesis presents the design and the prototype of the new Vacuum Gauges Controller for high and ultra-high vacuum measurements for the Large Hadron Collider at CERN.
 
 ## Table of Contents
 * [General Info](#general-info)
@@ -37,10 +37,12 @@ Author of project was responsible for:
 The practical part of this graduate project has been conducted from September 2017 up to September 2018 at CERN. The aims of this thesis were fulfiled successfully and the controller has been psychically made. The VGC prototype is operational and can serve the vacuum gauges such as Helmer, Bayard-Alpert, Pirani, Penning and Piezo-resistive.
 
 ## CERN Official Document
-The master thesis document is available to see on the CERN Documents Server under [this link](https://edms.cern.ch/document/2082555/1)
+The master thesis document is available to see on the CERN Documents Server under [this link](https://edms.cern.ch/document/2082555/1).
 
 ## Hardware
 The motherboard and backplane schematics, 3D models and PCBs have been designed with the use of Altium Designer 2017.
+
+More details can be found in chapters 3 and 4 of the [master thesis](./MasterThesis_Rev20_0__24_09_18_Final.pdf).
 
 ### Electronics components
 - **`STM32F429BIT6`**: ARM Cortex-M4 main microcontroller
@@ -98,6 +100,8 @@ The design of the front panel has been designed in the AutoCAD 2017 program. The
 
 The motherboard and the backplane boards are mounted to the mechanical chassis through the M3 screws and standoffs.
 
+More detailed photos of prototype can be found in attachments of the [master thesis](./MasterThesis_Rev20_0__24_09_18_Final.pdf).
+
 ### Motherboard
 
 <img src="img/motherbrd_soldered_top.png" width="70%" height="70%"/>
@@ -109,13 +113,13 @@ The motherboard and the backplane boards are mounted to the mechanical chassis t
 ### Backplane board
 
 <img src="img/backplanebrd_soldered_top.png" width="70%" height="70%"/>
-
 <img src="img/backplanebrd_soldered_bottom.png" width="70%" height="70%"/>
 
 ### Final VGC Controller
 
 <img src="img/vgc_cross_top.jpg" width="70%" height="70%"/>
 <img src="img/vgc_cross_back.jpg" width="70%" height="70%">
+<img src="img/vgc_back.jpg" width="70%" height="70%">
 
 
 ## Software
