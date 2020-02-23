@@ -27,15 +27,17 @@ The master thesis presents the design and the prototype of the new Vacuum Gauges
 
 The graduate thesis has been performed in collaboration with CERN and AGH.
 
-The aims of this master project was to design and prototype the new controller, which will be replaced with the out-of-date and obsoleted controllers (the TPG300 and the VGC1000) still in use at CERN.
+The aims of this master project were to design and prototype the new controller, which will be used to replaced the out-of-date and obsoleted controllers (the TPG300 and the VGC1000) still in use at CERN.
 
-Author of project was responsible for:
+Author of this project was responsible for tasks like:
 - designing, prototyping and soldering the motherboard and backplane PCBs,
 - designing and prototyping firmware implementation for a STM32 microcontroller,
 - designing and implementing GUI (Graphical User Interface),
 - designing and implementing PC console application in C++.
 
-The practical part of this graduate project has been conducted from September 2017 up to September 2018 at CERN. The aims of this thesis were fulfiled successfully and the controller has been psychically made. The VGC prototype is operational and can serve the vacuum gauges such as Helmer, Bayard-Alpert, Pirani, Penning and Piezo-resistive.
+The practical part of this graduate project has been conducted from September 2017 up to September 2018 at CERN. The aims of this thesis were fulfiled successfully and the controller has been psychically made. 
+
+The VGC prototype is operational and can serve the vacuum gauges such as Helmer, Bayard-Alpert, Pirani, Penning and Piezo-resistive.
 
 ## CERN Official Document
 The master thesis document is available to see on the CERN Documents Server under [this link](https://edms.cern.ch/document/2082555/1).
@@ -43,7 +45,7 @@ The master thesis document is available to see on the CERN Documents Server unde
 ## Hardware
 The motherboard and backplane schematics, 3D models and PCBs have been designed with the use of Altium Designer 2017.
 
-More details can be found in chapters 3 and 4 of the [master thesis](./MasterThesis_Rev20_0__24_09_18_Final.pdf).
+More details can be found in chapters 3 and 4 of this [master thesis](./MasterThesis_Rev20_0__24_09_18_Final.pdf).
 
 ### Electronics components
 - **`STM32F429BIT6`**: ARM Cortex-M4 main microcontroller
@@ -66,7 +68,7 @@ More details can be found in chapters 3 and 4 of the [master thesis](./MasterThe
 
 The motherboard is the four-layer PCB, where two layers are the power supply layers (the ground and +3.3VDC, placed onto the internal layers of the PCB), and next two are signal layers (placed on the external layers of the PCB).
 
-The backplane board is a standard two-layer board with a boosted thickness of 3mm (requirements for high stiffness and more equalled distribution of mechanical stress).
+The backplane board is a standard two-layer board with a boosted thickness of 3mm (due to requirements for high stiffness and more equalled distribution of mechanical stress).
 
 #### Motherboard
 
@@ -101,7 +103,7 @@ The design of the front panel has been designed in the AutoCAD 2017 program. The
 
 The motherboard and the backplane boards are mounted to the mechanical chassis through the M3 screws and standoffs.
 
-More detailed photos of prototype can be found in attachments of the [master thesis](./MasterThesis_Rev20_0__24_09_18_Final.pdf).
+More detailed photos of prototype can be found in attachments of this [master thesis](./MasterThesis_Rev20_0__24_09_18_Final.pdf).
 
 ### Motherboard
 
@@ -127,7 +129,7 @@ Firmware implementation for the STM32 main microcontroller has been written in *
 
 Console control application has been written in **`C++11`** in the **`Visual Studio Community 2017`** IDE.
 
-Author of project has been not granted with a permission for publicing source codes of firmware and console application.
+Author of project has been not granted with a permission for publishing source codes of firmware and console application.
 
 More details about software can be found in chapter 6 of the [master thesis](./MasterThesis_Rev20_0__24_09_18_Final.pdf).
 
