@@ -30,7 +30,7 @@ The graduate thesis has been performed in collaboration with CERN and AGH.
 The aims of this master project were to design and prototype the new controller, which will be used to replaced the out-of-date and obsoleted controllers (the TPG300 and the VGC1000) still in use at CERN.
 
 Author of this project was responsible for tasks like:
-- designing, prototyping and soldering the motherboard and backplane PCBs,
+- designing, prototyping and soldering motherboard and backplane PCBs,
 - designing and prototyping firmware implementation for a STM32 microcontroller,
 - designing and implementing GUI (Graphical User Interface),
 - designing and implementing PC console application in C++.
@@ -131,10 +131,10 @@ Console control application has been written in **`C++11`** in the **`Visual Stu
 
 Author of project has been not granted with a permission for publishing source codes of firmware and console application.
 
-More details about software can be found in chapter 6 of the [master thesis](./MasterThesis_Rev20_0__24_09_18_Final.pdf).
+More details about software can be found in chapter 6 of this [master thesis](./MasterThesis_Rev20_0__24_09_18_Final.pdf).
 
 ### GUI templates (selected)
-Graphical User Interface (GUI) effects are generated using designed GUI templates, saved as standard image formats and loaded to the external NOR and SDRAM memories. 
+Graphical User Interface (GUI) effects are generated using designed GUI templates, saved in standard image formats and loaded to the external NOR and SDRAM memories. 
 
 More details about GUI can be found in chapter 6.4 of the [master thesis](./MasterThesis_Rev20_0__24_09_18_Final.pdf).
 
