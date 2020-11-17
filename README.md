@@ -125,11 +125,11 @@ More detailed photos of the prototype can be found in attachments of this [maste
 
 ## Software
  
-Firmware implementation for the main STM32 microcontroller has been written in **`C language`** in **`Atolic TrueStudio`** IDE.
+Firmware implementation for the main STM32 microcontroller has been written in **`C`** in **`Atolic TrueStudio`** IDE.
 
 Control console application has been written in **`C++11`** in **`Visual Studio Community 2017`** IDE.
 
-Author of project has been not granted with a permission for publishing source files of firmware and console application.
+Author of the project has been not granted with a permission for publishing source files of firmware and console application.
 
 More details about software can be found in chapter 6 of this [master thesis](./MasterThesis_Rev20_0__24_09_18_Final.pdf).
 
