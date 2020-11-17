@@ -27,32 +27,32 @@ The master thesis presents the design and the prototype of the new Vacuum Gauges
 
 The graduate thesis has been performed in collaboration with CERN and AGH.
 
-The aims of this master project were to design and prototype the new controller, which will be used to replaced the out-of-date and obsoleted controllers (the TPG300 and the VGC1000) still in use at CERN.
+Main goals of this project were to design and prototype a new controller, which will be used to replaced out-of-date and obsoleted controllers (the TPG300 and the VGC1000), still in use at CERN.
 
-Author of this project was responsible for tasks like:
-- designing, prototyping and soldering motherboard and backplane PCBs,
-- designing and prototyping firmware implementation for a STM32 microcontroller,
+Main tasks of the project were:
+- designing, prototyping, soldering, and testing motherboard and backplane PCBs (Altium Designer 17),
+- designing, coding, prototyping, implementing, testing, and debugging a firmware implementation for a STM32 microcontroller (C),
 - designing and implementing GUI (Graphical User Interface),
-- designing and implementing PC console application in C++.
+- designing, coding, prototyping, implementing, testing and debugging a PC console application (C++11).
 
-The practical part of this graduate project has been conducted from September 2017 up to September 2018 at CERN. The aims of this thesis were fulfiled successfully and the controller has been psychically made. 
+Practical part of this graduate project has been conducted from September 2017 up to September 2018 at CERN. Aims of this thesis were successfully fulfiled and the new controller has been physically made. 
 
-The VGC prototype is operational and can serve the vacuum gauges such as Helmer, Bayard-Alpert, Pirani, Penning and Piezo-resistive.
+The VGC prototype is operational and it supports vacuum gauges such as Helmer, Bayard-Alpert, Pirani, Penning and Piezo-resistive.
 
 ## CERN Official Document
-The master thesis document is available to see on the CERN Documents Server under [this link](https://edms.cern.ch/document/2082555/1).
+The master thesis document is available on the CERN online portal (EDMS) under [this link](https://edms.cern.ch/document/2082555/1).
 
 ## Hardware
-The motherboard and backplane schematics, 3D models and PCBs have been designed with the use of Altium Designer 2017.
+Motherboard and backplane board schematics, 3D models and PCBs have been designed in Altium Designer 2017.
 
-More details can be found in chapters 3 and 4 of this [master thesis](./MasterThesis_Rev20_0__24_09_18_Final.pdf).
+More details about hardware can be found in chapter 3 and chapter 4 of this [master thesis](./MasterThesis_Rev20_0__24_09_18_Final.pdf).
 
 ### Electronics components
 - **`STM32F429BIT6`**: ARM Cortex-M4 main microcontroller
 - **`5' TFT LCD MCT050TC12W800480LML`**: 800x480 
 - **`256Mbit Micron SDRAM MT48LC16M16A2P`**: TFT LCD active data buffer
-- **`64Mbit NOR FLASH S29GL064N90TFI040`**: non-volatile data buffer for GUI templates
-- **`512Kbit EEPROM 24FC512`**: non-volatile data buffer for events' timestamps, configuration and settings parameters
+- **`64Mbit NOR FLASH S29GL064N90TFI040`**: non-volatile data buffer for storing GUI templates
+- **`512Kbit EEPROM 24FC512`**: non-volatile data buffer for storing events timestamps, configuration and settings parameters
 - **`L5972D`**: main power supply buck converter 24V/3.3V with 2A current limiter
 - **`LT3466EDD`**: TFT LCD Backlight driver and boost converter
 - **`TPS2500DRCR`**: USB power boost converter
@@ -66,9 +66,9 @@ More details can be found in chapters 3 and 4 of this [master thesis](./MasterTh
 
 ### PCB designs and 3D models
 
-The motherboard is the four-layer PCB, where two layers are the power supply layers (the ground and +3.3VDC, placed onto the internal layers of the PCB), and next two are signal layers (placed on the external layers of the PCB).
+The motherboard is a four-layers PCB, where two layers are power supply layers (ground and +3.3VDC, placed on two internal layers of the PCB), and next two are signal layers (placed on external layers of the PCB).
 
-The backplane board is a standard two-layer board with a boosted thickness of 3mm (due to requirements for high stiffness and more equalled distribution of mechanical stress).
+The backplane board is a standard two-layer board with a boosted thickness of 3mm (due to requirements for high stiffness and more equalled distribution of mechanical stresses).
 
 #### Motherboard
 
@@ -97,13 +97,13 @@ Design:
 
 ## Prototype
 
-The PCB boards have been done with the use of a solder oven and standard soldering tools.
+PCB boards have been made with the use of a solder oven and standard soldering tools.
 
-The design of the front panel has been designed in the AutoCAD 2017 program. The front panel of the prototype has been done with the use of a CNC milling machine.
+Front panel design of the prototype has been designed in AutoCAD 2017. The front panel has been made with the use of a CNC milling machine.
 
-The motherboard and the backplane boards are mounted to the mechanical chassis through the M3 screws and standoffs.
+Motherboard and the backplane boards are mounted in a standard 42HP 3U Europe Plug-in-Unit (manufactured by Schroff), fastened with M3 screws and standoffs.
 
-More detailed photos of prototype can be found in attachments of this [master thesis](./MasterThesis_Rev20_0__24_09_18_Final.pdf).
+More detailed photos of the prototype can be found in attachments of this [master thesis](./MasterThesis_Rev20_0__24_09_18_Final.pdf).
 
 ### Motherboard
 
@@ -125,16 +125,16 @@ More detailed photos of prototype can be found in attachments of this [master th
 
 ## Software
  
-Firmware implementation for the STM32 main microcontroller has been written in **`C language`** in the **`Atolic TrueStudio`** IDE.
+Firmware implementation for the main STM32 microcontroller has been written in **`C language`** in **`Atolic TrueStudio`** IDE.
 
-Console control application has been written in **`C++11`** in the **`Visual Studio Community 2017`** IDE.
+Control console application has been written in **`C++11`** in **`Visual Studio Community 2017`** IDE.
 
-Author of project has been not granted with a permission for publishing source codes of firmware and console application.
+Author of project has been not granted with a permission for publishing source files of firmware and console application.
 
 More details about software can be found in chapter 6 of this [master thesis](./MasterThesis_Rev20_0__24_09_18_Final.pdf).
 
 ### GUI templates (selected)
-Graphical User Interface (GUI) effects are generated using designed GUI templates, saved in standard image formats and loaded to the external NOR and SDRAM memories. 
+Graphical User Interface (GUI) effects are generated by using designed GUI templates (stored as standard image formats), loaded to the external NOR and SDRAM memories. 
 
 More details about GUI can be found in chapter 6.4 of the [master thesis](./MasterThesis_Rev20_0__24_09_18_Final.pdf).
 
