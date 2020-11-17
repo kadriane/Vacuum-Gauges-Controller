@@ -40,7 +40,7 @@ Practical part of this graduate project has been conducted from September 2017 u
 The VGC prototype is operational and it supports vacuum gauges such as Helmer, Bayard-Alpert, Pirani, Penning and Piezo-resistive.
 
 ## CERN Official Document
-The master thesis document is available on the CERN online portal (EDMS) under [this link](https://edms.cern.ch/document/2082555/1).
+The master thesis document is available on the CERN EDMS online service under [this link](https://edms.cern.ch/document/2082555/1).
 
 ## Hardware
 Motherboard and backplane board schematics, 3D models and PCBs have been designed in Altium Designer 2017.
