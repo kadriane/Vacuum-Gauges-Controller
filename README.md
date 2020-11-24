@@ -31,9 +31,9 @@ Main aims of this project were to design and prototype a new controller, which r
 
 Main tasks of the project were:
 - designing, prototyping, soldering, and testing motherboard and backplane PCBs,
-- designing, coding, prototyping, implementing, testing, and debugging a firmware implementation for a STM32 microcontroller (C),
+- designing, programming, prototyping, implementing, testing, and debugging a firmware implementation for a STM32 microcontroller (C),
 - designing and implementing GUI (Graphical User Interface),
-- designing, coding, prototyping, implementing, testing and debugging a PC console application (C++11).
+- designing, programming, prototyping, implementing, testing and debugging a PC console application (C++11).
 
 Practical part of this graduate project has been conducted from September 2017 up to September 2018 at CERN. Aims of this thesis were successfully fulfilled and the new controller has been physically made. 
 
